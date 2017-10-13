@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="SimpleEntities\\Tests" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.002214">
+    <testsuite name="SimpleEntitiesTest\UserTest" file="/Users/settermjd/Workspace/clients/logDNA/SimpleEntities/test/UserTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.002214">
+      <testcase name="testGetNameReturnsNullIfNameIsNotSet" class="SimpleEntitiesTest\UserTest" file="/Users/settermjd/Workspace/clients/logDNA/SimpleEntities/test/UserTest.php" line="16" assertions="1" time="0.001071"/>
+      <testcase name="testSetNameCanSetTheNamePropertyCorrectly" class="SimpleEntitiesTest\UserTest" file="/Users/settermjd/Workspace/clients/logDNA/SimpleEntities/test/UserTest.php" line="22" assertions="1" time="0.001143"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

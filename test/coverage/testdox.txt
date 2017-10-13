@@ -1,0 +1,4 @@
+SimpleEntitiesTest\User
+ [x] Get name returns null if name is not set
+ [x] Set name can set the name property correctly
+

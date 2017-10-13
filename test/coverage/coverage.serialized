@@ -1,0 +1,55 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/Users/settermjd/Workspace/clients/logDNA/SimpleEntities/src/User.php' => 
+  array (
+    11 => 
+    array (
+      0 => 'SimpleEntitiesTest\\UserTest::testGetNameReturnsNullIfNameIsNotSet',
+      1 => 'SimpleEntitiesTest\\UserTest::testSetNameCanSetTheNamePropertyCorrectly',
+    ),
+    12 => 
+    array (
+      0 => 'SimpleEntitiesTest\\UserTest::testGetNameReturnsNullIfNameIsNotSet',
+      1 => 'SimpleEntitiesTest\\UserTest::testSetNameCanSetTheNamePropertyCorrectly',
+    ),
+    16 => 
+    array (
+      0 => 'SimpleEntitiesTest\\UserTest::testGetNameReturnsNullIfNameIsNotSet',
+      1 => 'SimpleEntitiesTest\\UserTest::testSetNameCanSetTheNamePropertyCorrectly',
+    ),
+    17 => NULL,
+    21 => 
+    array (
+      0 => 'SimpleEntitiesTest\\UserTest::testSetNameCanSetTheNamePropertyCorrectly',
+    ),
+    22 => 
+    array (
+      0 => 'SimpleEntitiesTest\\UserTest::testSetNameCanSetTheNamePropertyCorrectly',
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+  'SimpleEntitiesTest\\UserTest::testGetNameReturnsNullIfNameIsNotSet' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'SimpleEntitiesTest\\UserTest::testSetNameCanSetTheNamePropertyCorrectly' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/Users/settermjd/Workspace/clients/logDNA/SimpleEntities/src/User.php' => true,
+));
+
+return $coverage;
